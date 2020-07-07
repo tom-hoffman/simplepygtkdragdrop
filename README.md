@@ -2,7 +2,9 @@ Simplest Python GTK Drag and Drop Example
 -----------------------------------------
 
 Tom Hoffman
+
 Computer Science Teacher
+
 Providence Career and Technical Academy
 
 In the course of figuring out how to implement drag and drop
