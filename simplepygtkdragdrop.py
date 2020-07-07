@@ -38,6 +38,7 @@ from gi.repository import Gtk, Gdk, GdkX11
 # Handler functions to be connected to signals
 
 # Drag source signals
+
 # To get deeper with signals see:
 # https://developer.gnome.org/gtk3/stable/GtkWidget.html#GtkWidget-drag-drop
 
@@ -63,6 +64,8 @@ def drag_data_get(sending_widget: Gtk.Widget,
     data.set_text("Hello, world!", -1)
     print(f"data after drag_data_get(): {data.get_text()}")
 
+# Drag destination signals
+    
 def drag_motion(receiving_widget: Gtk.Widget,
                 context: GdkX11.X11DragContext,
                 x: int,
