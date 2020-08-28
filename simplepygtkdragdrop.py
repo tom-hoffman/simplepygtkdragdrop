@@ -21,6 +21,9 @@
 # signals printing info to the console hopefully illuminating
 # what is happening.  That's it.
 
+# Note that there is nothing special about buttons -- any Gtk Widget 
+# can be used as a source or destination.
+
 # You may not need all these signals to
 # get started in your app, I've included a few extras which may
 # be helpful in getting started and debugging your code.
